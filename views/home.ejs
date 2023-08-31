@@ -10,7 +10,7 @@
         <p>
         <%= post.content.substring(0, 100) + "..." %>
         <!-- To add the read more href tag just after the post, add it in the same p tags -->
-        <a href="/posts/<%= post.title %>">Read More</a>
+        <a href="/posts/<%= post._id %>">Read More</a>
         </p>
 
     <% }); %>
